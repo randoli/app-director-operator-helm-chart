@@ -4,9 +4,9 @@
 
 replicaCount: 1
 
-deployment:
-  image: "docker.io/randoli/app-director-operator"
-  tag: "dev"
+# deployment:
+#   image: "docker.io/randoli/app-director-operator"
+#   tag: "dev"
 
 image:
   repository: nginx
