@@ -3,7 +3,28 @@ entries:
   app-director-agent-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-12-14T18:08:22.92885979-03:00"
+    created: "2023-03-07T10:32:55.250683089+05:30"
+    description: Randoli App Director Agent Operator
+    digest: 6cb732bb258af902ccaed1bd8527bccc9ac71f24b492d6a21c767df244a42f26
+    home: https://randoli.ca
+    icon: https://s3.ca-central-1.amazonaws.com/randoli.ca/icons/icon-384x384.png
+    keywords:
+    - app-director
+    - app-director-operator
+    - randoli
+    maintainers:
+    - email: support@randoli.ca
+      name: Randoli
+      url: https://randoli.ca
+    name: app-director-agent-operator
+    sources:
+    - https://github.com/randoli/app-director-operator
+    urls:
+    - app-director-agent-operator-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-03-07T10:32:55.248275622+05:30"
     description: Randoli App Director Agent Operator
     digest: 2c639de6834222c766f87d7eb55639b8b2d3ba76e4b10e6a52fa4fffdabef465
     home: https://randoli.ca
@@ -24,7 +45,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-12-14T18:08:22.927651943-03:00"
+    created: "2023-03-07T10:32:55.24594103+05:30"
     description: Randoli App Director Agent Operator
     digest: df33aa48d5cb28247898d14ec792889acd82f1b834988837a34645267f6d7b80
     home: https://randoli.ca
@@ -45,7 +66,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-12-14T18:08:22.927022683-03:00"
+    created: "2023-03-07T10:32:55.243600475+05:30"
     description: Randoli App Director Agent Operator
     digest: 259451af4d0c8888fe987b982a892f6f6bb330038c631a3cf77310d3d9d6b821
     home: https://randoli.ca
@@ -69,7 +90,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-12-14T18:08:22.929393972-03:00"
+    created: "2023-03-07T10:32:55.25566887+05:30"
     description: Keycloak is a high performance Java-based identity and access management
       solution. It lets developers add an authentication layer to their applications
       with minimum effort.
@@ -90,4 +111,4 @@ entries:
     urls:
     - app-director-operator-0.8.0.tgz
     version: 0.8.0
-generated: "2022-12-14T18:08:22.926319112-03:00"
+generated: "2023-03-07T10:32:55.240751826+05:30"
