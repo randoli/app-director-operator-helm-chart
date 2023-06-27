@@ -3,7 +3,28 @@ entries:
   app-director-agent-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-03-23T18:09:14.947699571-03:00"
+    created: "2023-06-27T18:08:26.152472891-03:00"
+    description: Randoli App Director Agent Operator
+    digest: 8c204b0d0469d4f949460d5dadafe877b5adfa9125f238fa55178af2e78c8165
+    home: https://randoli.ca
+    icon: https://s3.ca-central-1.amazonaws.com/randoli.ca/icons/icon-384x384.png
+    keywords:
+    - app-director
+    - app-director-operator
+    - randoli
+    maintainers:
+    - email: support@randoli.ca
+      name: Randoli
+      url: https://randoli.ca
+    name: app-director-agent-operator
+    sources:
+    - https://github.com/randoli/app-director-operator
+    urls:
+    - app-director-agent-operator-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-06-27T18:08:26.152111589-03:00"
     description: Randoli App Director Agent Operator
     digest: 86166a677a2035288a1a2784c6286d89e2ea04fe39af52141c76d039eb39a1af
     home: https://randoli.ca
@@ -24,7 +45,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-03-23T18:09:14.94723576-03:00"
+    created: "2023-06-27T18:08:26.151590658-03:00"
     description: Randoli App Director Agent Operator
     digest: 2c639de6834222c766f87d7eb55639b8b2d3ba76e4b10e6a52fa4fffdabef465
     home: https://randoli.ca
@@ -45,7 +66,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-03-23T18:09:14.946886365-03:00"
+    created: "2023-06-27T18:08:26.151002993-03:00"
     description: Randoli App Director Agent Operator
     digest: df33aa48d5cb28247898d14ec792889acd82f1b834988837a34645267f6d7b80
     home: https://randoli.ca
@@ -66,7 +87,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-03-23T18:09:14.946482227-03:00"
+    created: "2023-06-27T18:08:26.150427032-03:00"
     description: Randoli App Director Agent Operator
     digest: 259451af4d0c8888fe987b982a892f6f6bb330038c631a3cf77310d3d9d6b821
     home: https://randoli.ca
@@ -90,7 +111,7 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-03-23T18:09:14.948276821-03:00"
+    created: "2023-06-27T18:08:26.153816957-03:00"
     description: Keycloak is a high performance Java-based identity and access management
       solution. It lets developers add an authentication layer to their applications
       with minimum effort.
@@ -111,4 +132,4 @@ entries:
     urls:
     - app-director-operator-0.8.0.tgz
     version: 0.8.0
-generated: "2023-03-23T18:09:14.94589068-03:00"
+generated: "2023-06-27T18:08:26.149139795-03:00"
