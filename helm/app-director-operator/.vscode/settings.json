@@ -1,5 +1,0 @@
-{
-  "yaml.schemas": {
-    "https://json.schemastore.org/chart.json": "file:///home/adam/Documents/Randoli/helm/app-director-operator/templates/deployment-operator.yaml"
-  }
-}

@@ -46,6 +46,13 @@ rules:
   verbs:
   - update
 - apiGroups:
+  - ""
+  resources:
+  - nodes
+  - persistentvolumes
+  verbs:
+  - list
+- apiGroups:
   - admissionregistration.k8s.io
   resources:
   - mutatingwebhookconfigurations
@@ -194,6 +201,12 @@ rules:
   - horizontalpodautoscalers
   verbs:
   - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
 - apiGroups:
   - coordination.k8s.io
   resources:
@@ -213,6 +226,12 @@ rules:
   verbs:
   - create
   - delete
+  - get
+- apiGroups:
+  - metrics.k8s.io
+  resources:
+  - nodes
+  verbs:
   - get
 - apiGroups:
   - policy
@@ -406,6 +425,12 @@ rules:
   - patch
   - update
   - watch
+- apiGroups:
+  - storage.k8s.io
+  resources:
+  - storageclasses
+  verbs:
+  - list
 - apiGroups:
   - tekton.dev
   resources:
